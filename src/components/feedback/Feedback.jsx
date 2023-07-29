@@ -16,9 +16,11 @@ export const Feedback = () => {
       case 'neutral':
         setNeutral(prevNeutral => prevNeutral + 1);
         break;
-      case 'bad':
+       case 'bad':
         setBad(prevBad => prevBad + 1);
         break;
+      default:
+        return;
     }
   };
 
