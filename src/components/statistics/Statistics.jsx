@@ -1,4 +1,4 @@
-import { Section } from './Section';
+import { Section } from '../feeedback-section/Section';
 
 export const Statistics = ({ good, neutral, bad, total, positivePercentage }) =>
   total ? (

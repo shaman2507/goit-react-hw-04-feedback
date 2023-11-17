@@ -1,6 +1,6 @@
-import { Statistics } from './Statistics';
-import { Section } from './Section';
-import { FeedbackOptions } from './FeedbackOptions';
+import { Statistics } from '../statistics/Statistics';
+import { Section } from '../feeedback-section/Section';
+import { FeedbackOptions } from '../feedback-options/FeedbackOptions';
 import { useState } from 'react';
 
 export const Feedback = () => {
